@@ -1,0 +1,57 @@
+.getuserdetails{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .btns{
+        display: flex;
+        gap: 20px;
+
+        button{
+            background-color: rgb(0, 255, 128);
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+            width: 100px;
+        }
+    }
+    .choosestate{
+        background-color: aliceblue;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        h1{
+            margin: 10px 0px;
+        }
+        .choosestateitem{
+            &:hover{
+                transition: .2s;
+                background-color: rgb(13, 187, 22);
+                font-size: 1.2rem;
+            }
+        }
+        .clicked{
+            background-color: aqua;
+
+        }
+        p{
+            cursor: pointer;
+            border: 1px solid black;
+            width: 80%;
+            padding: 13px;
+            text-align: center;
+            letter-spacing: 2px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 5px 0px;
+            border-radius: 10px;
+            outline: 1px solid white ;
+            box-shadow: 0px 0px 0px 2px gray;
+        }
+    }
+}
+
